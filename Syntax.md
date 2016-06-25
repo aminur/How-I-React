@@ -24,7 +24,7 @@ class myComponent extends React.Component {
 
 Call render like this:
 
-`React.render(<myComponent />, document.getElementById('target'));`
+`ReactDOM.render(<myComponent />, document.getElementById('target'));`
 
 Simple function call with parameters of 'my component that I want to render', 'container to attach component to'. 
 
