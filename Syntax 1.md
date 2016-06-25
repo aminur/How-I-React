@@ -1,8 +1,6 @@
-# Day 1
+# Syntax
 
-## Understanding syntax
-
-The ECMAScript 6 way:
+The ES6 way:
 
 `class myComponent extends React.Component {
   //code in here
@@ -16,11 +14,11 @@ The render function returns HTML so let's add that in:
 
 `class myComponent extends React.Component {
   render() {
-    <h2>Learning from How I React</h2>;
+    <h2>Learning How To React</h2>;
   }
 }`
 
->Render does not print until it's called
+>Render does not print until it's called.
 
 Call render like this:
 
