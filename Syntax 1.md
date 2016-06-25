@@ -1,4 +1,4 @@
-# Syntax
+# Syntax (pt 1)
 
 The ES6 way:
 ```
@@ -38,4 +38,27 @@ For this to work though, of course you need your target to exist in the HTML.
 
 >>The basics of React syntax. How to print something to the screen. Where you would normally type outright HTML, here the HTML is coming from your JavaScript - it is coming the way React wants you to 'render' your component. When you want to output HTML, think 'render'. Render needs to be defined, and called. The component needs a target in the HTML so it knows where to render.
 
+#Syntax (pt 2)
 
+You may want to putput multiple lines of HTML when rendering your component.
+
+Update the code to include parenthese and a parent tag for _all_ the output:
+
+```
+class myComponent extends React.Component {
+  render() {
+    return (
+      <div id='necessary-single-parent-container'>
+        <h2>First line</h2>
+        <h4>Second line which causes a parent container tag to be required</h4>
+      </div>
+    );
+  }
+}
+```
+
+>Only one parent HTML tag per component output
+
+#### Summary 1
+
+>>The basics of React syntax. How to print something to the screen. Where you would normally type outright HTML, here the HTML is coming from your JavaScript - it is coming the way React wants you to 'render' your component. When you want to output HTML, think 'render'. Render needs to be defined, and called. The component needs a target in the HTML so it knows where to render.
