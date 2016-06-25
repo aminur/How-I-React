@@ -84,4 +84,4 @@ You would imagine `picture-url` is being passed into the component via a JSX att
 
 #### Summary 2
 
->>**Destructuring** is used to make JSX attributes accessible _by name_ within the JSX/Javascript code.
+>>**Destructuring** is used to make JSX attributes accessible _by name_ within the JSX/Javascript code. MDN describes this as _"The destructuring assignment syntax is a JavaScript expression that makes it possible to extract data from arrays or objects into distinct variables."_ - https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
