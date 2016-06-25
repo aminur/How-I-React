@@ -1,4 +1,4 @@
-#Data
+#Data (pt 1)
 
 To add data into the component, let's start by using JSX attributes. Normal XML syntax here for attributes being passed as part of the component.
 ```
@@ -57,5 +57,31 @@ Did you notice something extra in the above code?
 
 **NB: Remember to use `className` instead of `class` (for CSS purposes etc.) on JSX HTML**
 
-#### Summary
+#### Summary 1
 JSX attributes help to easily add data to the component and the syntax resembles XML attributes, aside from JavaScript being contained in curly braces {}. HTML styling should be done using the `className` attribute, **NOT `class`**
+
+#Data (pt 2)
+
+Accessing each attribute aka property with `this.props.nameofprop` is repetitive. This is when you use _destructuring_.
+```
+class myComponent extends React.Component {
+  render() {
+    var { keyx, number } = this.props; //Destructuring finds object and pulls out value properties
+    return (
+      <div className="class-in-css">
+        {number} //They can be accessed directly by their names
+        {keyx}
+      </div> //Outputs 4
+    );
+  }
+}
+```
+
+At this point, you should know exactly what's happening if you see something like this:
+`<img src={picture-url} width={150} />`
+
+You would imagine `picture-url` is being passed into the component via a JSX attribute, and you would recall that curly braces {} are necessary for numbers, therefore they are used in setting the `img width` here.
+
+#### Summary 2
+
+>>**Destructuring** is used to make JSX attributes accessible _by name_ within the JSX/Javascript code.
