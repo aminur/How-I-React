@@ -35,13 +35,27 @@ You'll see from the output that the data was passed to `props` as an Object.
 ```
 props: Object
   keyx: "value"
-  number:
-  number2: 4
+  number: 4
 ```
 
 >You can drill down, in console.log, into properties e.g. `console.log(this.props.keyx)`
 
-By now you would realise 'props' stands for properties.
+By now you would realise 'props' stands for properties. You should also realise that within your HTML in the render function, you access the values like so e.g. to get 'number':
+```
+class myComponent extends React.Component {
+  render() {
+    
+    return (
+      <div className="cannot-use-class-as-it-is-a-keyword-in-React-for-React-classes">
+        {this.props.number}
+      </div> //Outputs 4
+    );
+  }
+}
+```
+Did you notice something extra in the above code?
 
-#### Summary 
-JSX attributes help to easily add data to the component and the syntax resembles XML attributes, aside from JavaScript being contained in curly braces {}
+**NB: Remember to use `className` instead of `class` (for CSS purposes etc.) on JSX HTML**
+
+#### Summary
+JSX attributes help to easily add data to the component and the syntax resembles XML attributes, aside from JavaScript being contained in curly braces {}. HTML styling should be done using the `className` attribute, **NOT `class`**
