@@ -1,4 +1,4 @@
-# How-I-React
+# How-I-React.js
 
 ##Dependencies
 >Babel Javascript Preprocessor
