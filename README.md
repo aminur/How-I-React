@@ -2,7 +2,7 @@
 
 ##Dependencies
 >Babel Javascript Preprocessor
-`https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js`
+`//cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js`
 
 >React
 `//cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js`
