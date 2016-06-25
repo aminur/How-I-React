@@ -1,5 +1,7 @@
 # How-I-React.js
 
+####My first reaction to seeing React was: "this is probably not going to be easy for everyone."
+
 ##Dependencies
 >Babel Javascript Preprocessor
 `//cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.min.js`
@@ -9,6 +11,12 @@
 
 >React DOM
 `//cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js`
+
+##Existing knowledge assumed of:
+>HTML, CSS, Javascript
+
+>Developer Tools to inspect the browser console
+
 
 ##Backstory
 My first reaction to seeing React was that, this is probably not going to be easy for everyone. That was reinforced by various tutorials mentioning that people don't know where to start etc. I have dabbled with React only once before, and am about to re-learn it as it is my choice for the View layer of my project.
