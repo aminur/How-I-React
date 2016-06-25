@@ -59,6 +59,6 @@ class myComponent extends React.Component {
 
 >Only one parent HTML tag per component output
 
-#### Summary 1
+#### Summary 2
 
 >>The basics of React syntax. How to print something to the screen. Where you would normally type outright HTML, here the HTML is coming from your JavaScript - it is coming the way React wants you to 'render' your component. When you want to output HTML, think 'render'. Render needs to be defined, and called. The component needs a target in the HTML so it knows where to render.
