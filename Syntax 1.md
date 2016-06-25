@@ -15,7 +15,7 @@ The render function returns HTML so let's add that in:
 ```
 class myComponent extends React.Component {
   render() {
-    <h2>Learning How To React</h2>;
+    return <h2>Learning How To React</h2>;
   }
 }
 ```
